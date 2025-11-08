@@ -28,7 +28,7 @@ export default function App() {
               <Route path="/workshops" element={<Workshops />} />
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="/join" element={<JoinSDC />} />
+              <Route path="/join-sdc" element={<JoinSDC />} />
 
               {/* Admin Routes */}
               <Route path="/admin/login" element={<AdminLogin />} />

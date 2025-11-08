@@ -13,7 +13,7 @@ export default function Navbar() {
     { name: "Workshops", path: "/workshops" },
     { name: "Gallery", path: "/gallery" },
     { name: "Contact Us", path: "/contact" },
-    { name: "Join SDC", path: "/join" },
+    { name: "Join SDC", path: "/join-sdc" },
   ]
 
   return (
