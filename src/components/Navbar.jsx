@@ -7,7 +7,7 @@ export default function Navbar() {
   const location = useLocation()
 
   const links = [
-    { name: "Home", path: "/" },
+    // { name: "Home", path: "/" },
     { name: "Projects", path: "/projects" },
     { name: "Internships", path: "/internships" },
     { name: "Workshops", path: "/workshops" },
@@ -20,7 +20,7 @@ export default function Navbar() {
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
         <Link to="/" className="text-xl font-bold text-blue-600">
-          SDC DSVV
+          Software Development Cell
         </Link>
 
         {/* Desktop Links */}

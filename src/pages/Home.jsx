@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { tsParticles } from "tsparticles-engine";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   const particlesInit = async (engine = tsParticles) => {
@@ -62,7 +63,8 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6, duration: 1 }}
         >
-          Empowering students of DSVV through innovation, learning, and real-world software projects.
+          Empowering students of DSVV through innovation, learning, and
+          real-world software projects.
         </motion.p>
 
         <motion.div
@@ -71,18 +73,30 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 1 }}
         >
-          <a
+          {/* <a
             href="/projects"
             className="px-6 py-3 bg-sky-500 rounded-lg hover:bg-sky-600 transition"
           >
             View Projects
-          </a>
-          <a
+          </a> */}
+          <Link
+            to="/projects"
+            className="px-6 py-3 bg-sky-500 rounded-lg hover:bg-sky-600 transition"
+          >
+            View Projects
+          </Link>
+          {/* <a
             href="/join-sdc"
             className="px-6 py-3 border border-sky-400 rounded-lg hover:bg-sky-600/20 transition"
           >
             Join SDC
-          </a>
+          </a> */}
+          <Link
+            to="/join-sdc"
+            className="px-6 py-3 border border-sky-400 rounded-lg hover:bg-sky-600/20 transition"
+          >
+            Join SDC
+          </Link>
         </motion.div>
       </div>
     </div>
