@@ -5,7 +5,7 @@ import Projects from "./pages/Projects";
 import Internships from "./pages/Internships";
 import Workshops from "./pages/Workshops";
 import Gallery from "./pages/Gallery";
-import Contact from "./pages/Contact";
+import AboutUs from "./pages/AboutUs";
 import JoinSDC from "./pages/JoinSDC";
 import { AuthProvider } from "./context/AuthContext";
 import { Toaster } from "react-hot-toast";  
@@ -27,7 +27,7 @@ export default function App() {
               <Route path="/internships" element={<Internships />} />
               <Route path="/workshops" element={<Workshops />} />
               <Route path="/gallery" element={<Gallery />} />
-              <Route path="/contact" element={<Contact />} />
+              <Route path="/about" element={<AboutUs />} />
               <Route path="/join-sdc" element={<JoinSDC />} />
 
               {/* Admin Routes */}

@@ -12,7 +12,7 @@ export default function Navbar() {
     { name: "Internships", path: "/internships" },
     { name: "Workshops", path: "/workshops" },
     { name: "Gallery", path: "/gallery" },
-    { name: "Contact Us", path: "/contact" },
+    { name: "About Us", path: "/about" },
     { name: "Join SDC", path: "/join-sdc", highlight: true },
   ];
 
