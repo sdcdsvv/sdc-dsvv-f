@@ -1,5 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Internships from "./pages/Internships";
@@ -8,7 +10,7 @@ import Gallery from "./pages/Gallery";
 import AboutUs from "./pages/AboutUs";
 import JoinSDC from "./pages/JoinSDC";
 import { AuthProvider } from "./context/AuthContext";
-import { Toaster } from "react-hot-toast";  
+import { Toaster } from "react-hot-toast";
 
 import AdminLogin from "./pages/admin/AdminLogin";
 import Dashboard from "./pages/admin/Dashboard";
@@ -36,6 +38,7 @@ export default function App() {
             </Routes>
           </AuthProvider>
         </div>
+        <Footer />
       </div>
     </Router>
   );
