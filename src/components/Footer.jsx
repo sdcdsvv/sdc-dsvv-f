@@ -179,7 +179,7 @@ export default function Footer() {
                   <p className="text-gray-800 font-medium">
                     Dev Sanskriti Vishwavidyalaya
                   </p>
-                  <p className="text-gray-600 text-sm">Gayatikri, Haridwar</p>
+                  <p className="text-gray-600 text-sm">Gayatrikunj, Haridwar</p>
                   <p className="text-gray-600 text-sm">Uttarakhand, India</p>
                 </div>
               </div>
