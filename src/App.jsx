@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Internships from "./pages/Internships";
 import Workshops from "./pages/Workshops";
-import Gallery from "./pages/Gallery";
+import Events from "./pages/Events";
 import AboutUs from "./pages/AboutUs";
 import JoinSDC from "./pages/JoinSDC";
 import { AuthProvider } from "./context/AuthContext";
@@ -28,7 +28,7 @@ export default function App() {
               <Route path="/projects" element={<Projects />} />
               <Route path="/internships" element={<Internships />} />
               <Route path="/workshops" element={<Workshops />} />
-              <Route path="/gallery" element={<Gallery />} />
+              <Route path="/events" element={<Events />} />
               <Route path="/about" element={<AboutUs />} />
               <Route path="/join-sdc" element={<JoinSDC />} />
 

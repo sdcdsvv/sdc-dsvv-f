@@ -92,7 +92,7 @@ export default function Footer() {
           {/* Brand Column */}
           <motion.div variants={itemVariants} className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-3 mb-6 group">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-xl flex items-center justify-center shadow-lg">
+            {/* <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-xl flex items-center justify-center shadow-lg">
                 <span className="text-white font-bold text-lg">SDC</span>
               </div>
               <div>
@@ -100,7 +100,19 @@ export default function Footer() {
                   Software Development
                 </span>
                 <span className="block text-sm text-gray-600">Cell, DSVV</span>
-              </div>
+              </div> */}
+
+            {/* <Link
+              to="/"
+              className="flex items-center space-x-3 group"
+              onClick={() => setOpen(false)}
+            > */}
+              <img
+                src="/sdc-logo-black-2.png"
+                alt="Software Development Cell Logo"
+                className="relative h-12 w-auto transform group-hover:scale-105 transition-transform duration-300"
+              />
+            {/* </Link> */}
             </Link>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
